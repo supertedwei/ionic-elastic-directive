@@ -2,11 +2,13 @@ import { NgModule, ErrorHandler } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import { ElasticHeader } from '../components/elastic-header/elastic-header';
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    ElasticHeader
   ],
   imports: [
     IonicModule.forRoot(MyApp)
